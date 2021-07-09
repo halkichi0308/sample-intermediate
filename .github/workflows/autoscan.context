@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
     <context>
-        <name>http://192.168.1.2:50080</name>
+        <name>http://localhost:50080</name>
         <desc/>
         <inscope>true</inscope>
-        <incregexes>http://192.168.1.2:50080.*</incregexes>
+        <incregexes>http://localhost:50080.*</incregexes>
         <tech>
             <include>Db</include>
             <include>Db.CouchDB</include>
@@ -58,12 +58,12 @@
             <pollheaders/>
             <pollfreq>60</pollfreq>
             <pollunits>REQUESTS</pollunits>
-            <loggedin>ログアウト</loggedin>
+            <loggedin>logout</loggedin>
             <loggedout>Sign in</loggedout>
             <form>
-                <loginurl>http://192.168.1.2:50080/login</loginurl>
+                <loginurl>http://localhost:50080/login</loginurl>
                 <loginbody>username={%username%}&amp;password={%password%}&amp;_csrf=c52f7f7e-d11a-4caf-8427-0b7f299e045e</loginbody>
-                <loginpageurl>http://192.168.1.2:50080/login</loginpageurl>
+                <loginpageurl>http://localhost:50080/login</loginpageurl>
             </form>
         </authentication>
         <users>
