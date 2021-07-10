@@ -62,14 +62,14 @@
             <loggedout>Sign in</loggedout>
             <form>
                 <loginurl>http://localhost:50080/login</loginurl>
-                <loginbody>username={%username%}&amp;password={%password%}&amp;_csrf=c52f7f7e-d11a-4caf-8427-0b7f299e045e</loginbody>
+                <loginbody>username={%username%}&amp;password={%password%}&amp;_csrf=17507e16-82b4-48be-ae5c-c0fb472e2b38</loginbody>
                 <loginpageurl>http://localhost:50080/login</loginpageurl>
             </form>
         </authentication>
         <users>
-            <user>131;true;c3R3;2;c3R3~c3R3~</user>
+            <user>294;true;c3R3;2;c3R3~c3R3~</user>
         </users>
-        <forceduser>131</forceduser>
+        <forceduser>294</forceduser>
         <session>
             <type>0</type>
         </session>
